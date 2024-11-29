@@ -8,20 +8,20 @@
 </head>
 <body>
     <form>
-        <div>Nombre: <input type="text" name="nombre" placeholder="Nombre"></div>
-        <div>Apellidos: <input type="text" name="apellidos" placeholder="Apellidos" size="40"></div>
+        <div>Nombre: <input type="text" name="nombre" placeholder="Nombre" required></div>
+        <div>Apellidos: <input type="text" name="apellidos" placeholder="Apellidos" size="40" required></div>
         <div>Dirección:</div>
         <div>
             <input type="text" id="tipodevia" name="tipodevia" size="10" placeholder="Tipo de la via">
             <input type="text" name="nombrevia" size="60" placeholder="Nombre de la via">
         </div>
         <div>
-            <input type="text" name="codigopostal" size="8" placeholder="Código Postal">
-            <input type="text" name="ciudad" size="20" placeholder="Ciudad">
-            <input type="text" name="provincia" size="20" placeholder="Provincia">
-            <input type="text" name="pais" size="10" placeholder="Pais">
+            <input type="text" name="codigopostal" size="8" placeholder="Código Postal" required>
+            <input type="text" name="ciudad" size="20" placeholder="Ciudad" required>
+            <input type="text" name="provincia" size="20" placeholder="Provincia" required>
+            <input type="text" name="pais" size="10" placeholder="Pais" required>
         </div>
-        <div>Fecha de Nacimiento: <input type="date" name="fechanacimiento"></div>
+        <div>Fecha de Nacimiento: <input type="date" name="fechanacimiento" required></div>
         <div>Nota Universidad: <input type="number" name="notauniversidad" min="0" max="10" placeholder="Nota"></div>
         <div>Teléfono: <input type="tel" name="telefono" placeholder="000000000" pattern="^\d{9}" required></div>
         <div>Correo: <input type="email" name="correo" placeholder="a@gmail.com" required></div>
@@ -38,7 +38,7 @@
         </div>
         <div>
             <label for="tipoCuenta">Tipo de cuenta:</label>
-            <select id="tipoCuenta" name="tipoCuenta">
+            <select id="tipoCuenta" name="tipoCuenta" required>
                 <option value="">Selecciona un tipo de cuenta</option>
                 <option value="gratuita">Gratuita</option>
                 <option value="basica">Básica</option>
