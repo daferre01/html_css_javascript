@@ -1,0 +1,44 @@
+  .fila {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  .div {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .color1 {
+    background-color: rebeccapurple;
+  }
+  
+  .color2 {
+    background-color:burlywood;
+  }
+  
+  .color3 {
+    background-color: gold;
+  }
+  
+  .color4 {
+    background-color: #30c73c;
+  }
+  
+  .color5 {
+    background-color: #485977; 
+  }
+
+  .rectangulos .div {
+    width: 70px;
+    height: 50px;
+  }
+  
+  .redondos .div {
+    border-radius: 50%;
+  }
+  
